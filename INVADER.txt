@@ -1,0 +1,49 @@
+1→X
+1→T
+-1→O
+{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}→I
+dim(⸤I)→L
+1→P
+1→S
+1→R
+1→W
+0→F
+0→U
+0→V
+Lbl T
+O+1→O
+not(remainder(O,6))→C
+If Ans
+ClrHome
+0→H
+For(N,1,L
+H+not(remainder(N,6))→H
+If ⸤I(N:Then
+If V=H+R and X=N+W-6H:Then
+0→⸤I(N
+0→V
+Else
+If C
+Output(H+P,N+S-6H,"π
+End
+End
+End
+If C:Then
+S→W
+S+1→S
+If S>9:Then
+P→R
+P+1→P
+1→S
+End:End
+getKey→G
+Output(8,X,"  "
+X+1((Ans=26)-(Ans=24→X
+Output(8,X,"^
+If G=105
+7→V
+If V:Then
+Output(V,X,"I
+V-1→V
+End
+Goto T
